@@ -11,8 +11,8 @@
 :root {
     --primary-color:  #86877B; 
     --secondary-color: #C7A897; 
-    --highlight-color: #287B82 ; 
-    --highlight-color-brown: #635245; 
+    --highlight-color: #9cb625 ; 
+    --highlight-color-light: #dfe0df; 
     --background-color: #0C0907;
 }
 nav {
@@ -22,21 +22,30 @@ nav {
     text-align: center;
 }
 body {
-   background-image: src("..assets\images\hero.webp") center top fixed no-repeat; 
    padding-top: 77px; 
    background-color: var(--background-color); 
-   color: var(--primary-color);
+   color: var(--secondary-color);
 }
 h1 {
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--primary-color);
+
+    
 }
 footer {
     background-color: var(--highlight-color);
-    color: var(--secondary-color);
+    color: var(--background-color);
 }
 #hero {
     max-height: 400px;
     width: 100%;
     object-fit:cover;
+}
+
+.card{
+    margin-bottom:20px!important;
+    }
+
+#contact .table * {
+    background-color: transparent;
 }
