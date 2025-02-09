@@ -36,8 +36,7 @@ The project's goal is to create a website for a musical equipment store, special
 
 * Bootstrap
 * Squoosh to resize and compress images for web use.
-* To generate a colour palette from the uploaded image I used  http://colormind.io . As some results lacked acceptable contrast I used https://mycolor.space/ generator to expand the colour palette.
-* For checking contrast I used https://webaim.org/resources/contrastchecker/ .
+* To generate a colour palette from the uploaded image I used  <http://colormind.io> . As some results lacked acceptable contrast I used <https://mycolor.space/> generator to expand the colour palette.
+* For checking contrast I used <https://webaim.org/resources/contrastchecker/> .
 
 ## Credits
-

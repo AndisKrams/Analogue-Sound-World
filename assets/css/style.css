@@ -23,8 +23,7 @@ nav {
     padding: 1rem;
     text-align: center;
 }
-body {
-  /* padding-top: 77px; */
+body {    
    background-color: var(--background-color); 
    color: var(--secondary-color);
 }
@@ -38,17 +37,58 @@ footer {
     background-color: var(--highlight-color);
     color: var(--background-color);
 }
-#hero {
-    max-height: 400px;
-    width: 100%;
-    object-fit:cover;
-}
 
 .card{
+    border: none;
     margin-bottom:20px!important;
     background-color: var(--highlight-color-light);
+    color: var(--background-color);
     }
+
+    
 
 #contact .table * {
     background-color: transparent;
 }
+
+/*Media queries*/
+
+/*Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /*Make cards the same height for consistency*/
+    #mini .card-footer {
+        min-height: 321px;
+    } 
+    .behringer .card-footer {
+        min-height: 280px !important; /*Important to override height set for #mini*/
+    }   
+}
+
+/*Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*Make cards the same height for consistency*/
+    .behringer .card-footer {
+        min-height: 202px !important; /*Important to override height set for #mini*/
+    }
+    .korg .card-footer {
+        min-height: 392px !important;
+    }
+}
+/*Extra large screens, 1200px and more*/
+@media screen and (min-width: 1200px) {
+    /*Make cards the same height for consistency*/
+    #products .card-body {
+        min-height: 80px;
+    }
+    .korg .card-footer {
+        min-height: 321px !important;
+    }
+}
+/*Extra Large screens, 1400px and more*/
+@media screen and (min-width: 1400px) {
+    /*Make cards the same height for consistency*/
+    .korg .card-footer {
+        min-height: 273px !important;
+    }
+}
+
