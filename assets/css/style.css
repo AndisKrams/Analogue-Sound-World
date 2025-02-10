@@ -60,7 +60,7 @@ footer {
         min-height: 321px;
     } 
     .behringer .card-footer {
-        min-height: 280px !important; /*Important to override height set for #mini*/
+        min-height: 279px !important; /*Important to override height set for #mini*/
     }   
 }
 
