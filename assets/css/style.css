@@ -1,5 +1,5 @@
 /* Google font import*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 /*Colors:
 #0C0907
 #C7A897
@@ -9,86 +9,99 @@
 */
 /* CSS Variables */
 :root {
-    --primary-color:  #86877B; 
-    --secondary-color: #C7A897; 
-    --highlight-color: #9cb625 ; 
-    --highlight-color-light: #dfe0df; 
-    --background-color: #0C0907;
+  --primary-color: #86877b;
+  --secondary-color: #c7a897;
+  --highlight-color: #9cb625;
+  --highlight-color-light: #dfe0df;
+  --background-color: #0c0907;
 }
 nav {
-    /*background-color: var(--background-color);*/
-    background-color: rgba(156, 182, 37, 0.9);
-    color: var(--background-color);
-    font-size: 1.2rem;
-    padding: 1rem;
-    text-align: center;
+  /*background-color: var(--background-color);*/
+  background-color: rgba(156, 182, 37, 0.9);
+  color: var(--background-color);
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
 }
-body {    
-   background-color: var(--background-color); 
-   color: var(--secondary-color);
+body {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
 }
 h1 {
-    text-align: center;
-    color: var(--primary-color);
-
-    
+  text-align: center;
+  color: var(--primary-color);
 }
 footer {
-    background-color: var(--highlight-color);
-    color: var(--background-color);
+  background-color: var(--highlight-color);
+  color: var(--background-color);
 }
 
-.card{
-    border: none;
-    margin-bottom:20px!important;
-    background-color: var(--highlight-color-light);
-    color: var(--background-color);
-    }
-
-    
+.card {
+  border: none;
+  margin-bottom: 20px !important;
+  background-color: var(--highlight-color-light);
+  color: var(--background-color);
+}
 
 #contact .table * {
-    background-color: transparent;
+  background-color: transparent;
+}
+#contact i {
+  color: var(--secondary-color);
+  text-shadow: -1px 0 var(--highlight-color-light),
+    0 1px var(--highlight-color-light), 1px 0 var(--highlight-color-light),
+    0 -1px var(--highlight-color-light);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+#contact .social-links i {
+  color: var(--secondary-color);
+  font-size: 1.9rem;
+  text-shadow: -1px 0 var(--highlight-color-light),
+    0 1px var(--highlight-color-light), 1px 0 var(--highlight-color-light),
+    0 -1px var(--highlight-color-light);
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 /*Media queries*/
 
 /*Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /*Make cards the same height for consistency*/
-    #mini .card-footer {
-        min-height: 321px;
-    } 
-    .behringer .card-footer {
-        min-height: 279px !important; /*Important to override height set for #mini*/
-    }   
+  /*Make cards the same height for consistency*/
+  #mini .card-footer {
+    min-height: 321px;
+  }
+  .behringer .card-footer {
+    min-height: 279px !important; /*Important to override height set for #mini*/
+  }
 }
 
 /*Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /*Make cards the same height for consistency*/
-    .behringer .card-footer {
-        min-height: 202px !important; /*Important to override height set for #mini*/
-    }
-    .korg .card-footer {
-        min-height: 392px !important;
-    }
+  /*Make cards the same height for consistency*/
+  .behringer .card-footer {
+    min-height: 202px !important; /*Important to override height set for #mini*/
+  }
+  .korg .card-footer {
+    min-height: 392px !important;
+  }
 }
 /*Extra large screens, 1200px and more*/
 @media screen and (min-width: 1200px) {
-    /*Make cards the same height for consistency*/
-    #products .card-body {
-        min-height: 80px;
-    }
-    .korg .card-footer {
-        min-height: 321px !important;
-    }
+  /*Make cards the same height for consistency*/
+  #products .card-body {
+    min-height: 80px;
+  }
+  .korg .card-footer {
+    min-height: 321px !important;
+  }
 }
 /*Extra Large screens, 1400px and more*/
 @media screen and (min-width: 1400px) {
-    /*Make cards the same height for consistency*/
-    .korg .card-footer {
-        min-height: 273px !important;
-    }
+  /*Make cards the same height for consistency*/
+  .korg .card-footer {
+    min-height: 273px !important;
+  }
 }
-
