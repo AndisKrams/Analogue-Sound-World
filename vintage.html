@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Analogue Sound World - Welcome to our store of analogue synthesizers!"/>
+    <title>Analogue Sound World</title>
+    <!--Bootstrap script-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets\css\style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!--Bootstrap navbar-->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md fixed-top"
+      data-bs-theme="light"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets\images\sound-waves-light.png"
+            alt="Analogua sound world logo"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler float-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html"
+                >Home</a
+              >
+            </li>
+            <!--Navbar item with dropdown-->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="index.html#products"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="index.html#products">Products range</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="index.html#mini">Mini synths</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="vintage.html">Vintage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Header-->
+    <header id="header" class="container text-center section">
+      <div class="row">
+        <div class="col-12">
+          <div>
+            <img
+              id="hero"
+              src="assets\images\vintage.webp"
+              alt="Header image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8">
+            <p class="lead display-6 my-4">
+              Welcome to the world of analogue synthesizers!
+            </p>
+            <p class="my-4">
+                We offer a wide range of vintage synthesizers, from the 70s to the
+                90s. Our collection includes the most iconic models from the most
+                famous brands. Whether you are a collector or a musician, you will
+                find the perfect synth for you!
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+    </main>
+    <!--Footer-->
+    <footer id="contact" class="mt-auto">
+      <div class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Contact us!</h2>
+          </div>
+          <!--Contact info-->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color">Contact info</h3>
+            <address>
+              <strong
+                ><i class="fa-solid fa-location-dot"></i>Analogue Sound
+                World</strong
+              ><br />
+              Street<br />
+              City, 12345
+            </address>
+            <p>
+              <i class="fa-solid fa-phone"></i>012 345 6789<br />
+              <i class="fa-regular fa-paper-plane"></i>info@analog-world.co
+            </p>
+            <div class="social-links my-4">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+              >
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+              >
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our X page (opens in a new tab)"
+              >
+                <i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <!--Opening times-->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="sub-heading-color">Opening times</h3>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Mon - Fri</th>
+                  <td>10am</td>
+                  <td>6pm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sat - Sun</th>
+                  <td>10am</td>
+                  <td>4pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Bootstrap script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font awesome kit-->
+    <script
+      src="https://kit.fontawesome.com/732de80570.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
