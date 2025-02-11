@@ -42,6 +42,10 @@ footer {
   color: var(--background-color);
 }
 
+.section {
+  padding-top: 5rem;
+}
+
 #contact .table * {
   background-color: transparent;
 }
@@ -62,6 +66,14 @@ footer {
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+}
+#header-vintage {
+  padding-top: 90px;
+  text-align: center;
+}
+
+#header-vintage strong {
+  color: var(--highlight-color);
 }
 
 .modal-content {
