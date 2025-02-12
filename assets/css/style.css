@@ -18,8 +18,8 @@
 nav {
   background-color: rgba(156, 182, 37, 0.9);
   color: var(--background-color);
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.4rem;
+  padding: none;
   text-align: center;
 }
 body {
@@ -47,7 +47,6 @@ footer {
 }
 
 
-
 #contact .table * {
   background-color: transparent;
 }
@@ -72,12 +71,15 @@ footer {
 #contact .social-links i:hover {
   color: var(--primary-color);
 }
+#header {
+  text-align: center;
+}
 #header-vintage {
   padding-top: 90px;
   text-align: center;
 }
 
-#header-vintage strong {
+#vintage strong {
   color: var(--highlight-color);
 }
 
@@ -92,6 +94,7 @@ footer {
 .custom-button {
   background-color: var(--highlight-color);
   color: var(--background-color);
+  border: 2px solid var(--secondary-color);
 }
 
 /*Media queries*/
