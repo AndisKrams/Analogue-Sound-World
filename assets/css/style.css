@@ -1,14 +1,10 @@
 /* Google font import*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
-/*Colors:
-#0C0907
-#C7A897
-#86877B
-#635245
-#287B82 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* CSS Variables */
 :root {
+  --primary-font: inter, sans-serif;
+  --secondary-font: quantico, sans-serif;
   --primary-color: #86877b;
   --secondary-color: #c7a897;
   --highlight-color: #9cb625;
@@ -23,16 +19,22 @@ nav {
   text-align: center;
 }
 body {
+  font-family: var(--primary-font);
   background-color: var(--background-color);
   color: var(--secondary-color);
 }
-h1 {
+h1, h2 {
+  font-family: var(--secondary-font);
   text-align: center;
   color: var(--primary-color);
 }
 footer {
+  font-family: var(--primary-font);
   background-color: var(--highlight-color);
   color: var(--background-color);
+}
+footer h3 {
+  font-family: var(--secondary-font);
 }
 
 .card {
