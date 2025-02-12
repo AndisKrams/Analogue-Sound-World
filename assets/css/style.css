@@ -105,10 +105,10 @@ footer h3 {
 @media screen and (min-width: 768px) {
   /*Make cards the same height for consistency*/
   #mini .card-footer {
-    min-height: 321px;
+    min-height: 320px;
   }
   .behringer .card-footer {
-    min-height: 279px !important; /*Important to override height set for #mini*/
+    min-height: 303px !important; /*Important to override height set for #mini*/
   }
 }
 
