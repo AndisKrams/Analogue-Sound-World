@@ -75,7 +75,10 @@ footer h3 {
 }
 #header {
   text-align: center;
+  padding: 0;
 }
+ 
+
 #header-vintage {
   padding-top: 90px;
   text-align: center;
