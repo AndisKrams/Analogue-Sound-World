@@ -1,5 +1,5 @@
 /* Google font import*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* CSS Variables */
 :root {
@@ -23,7 +23,8 @@ body {
   background-color: var(--background-color);
   color: var(--secondary-color);
 }
-h1, h2 {
+h1,
+h2 {
   font-family: var(--secondary-font);
   text-align: center;
   color: var(--primary-color);
@@ -36,7 +37,14 @@ footer {
 footer h3 {
   font-family: var(--secondary-font);
 }
+#header {
+  text-align: center;
+}
 
+#header-vintage {
+  padding-top: 90px;
+  text-align: center;
+}
 .card {
   border: none;
   margin-bottom: 20px !important;
@@ -44,10 +52,10 @@ footer h3 {
   color: var(--background-color);
 }
 
-.section {
-  padding-top: 5rem;
+#products,
+#mini {
+  padding-top: 80px;
 }
-
 
 #contact .table * {
   background-color: transparent;
@@ -72,16 +80,6 @@ footer h3 {
 }
 #contact .social-links i:hover {
   color: var(--primary-color);
-}
-#header {
-  text-align: center;
-  padding: 0;
-}
- 
-
-#header-vintage {
-  padding-top: 90px;
-  text-align: center;
 }
 
 #vintage strong {
@@ -114,15 +112,13 @@ footer h3 {
     min-height: 303px !important; /*Important to override height set for #mini*/
   }
 }
-
 /*Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px ) {
-  /*Make cards the same height for consistency*/
+@media screen and (min-width: 992px) {
   #products .card-body {
     min-height: 89.6px;
   }
   .behringer .card-header {
-    min-height: 82.5px ; /*Important to override height set for #products*/
+    min-height: 82.5px; /*Important to override height set for #products*/
   }
   .behringer .card-footer {
     min-height: 202px !important; /*Important to override height set for #mini*/
@@ -135,8 +131,6 @@ footer h3 {
 }
 /*Extra Large screens, 1400px and more*/
 @media screen and (min-width: 1400px) {
-  /*Make cards the same height for consistency*/
-  
   .korg .card-footer {
     min-height: 273px !important;
   }
