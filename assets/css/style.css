@@ -57,7 +57,9 @@ footer h3 {
 #mini {
   padding-top: 80px;
 }
-
+#modal .modal-title {
+  color: var(--background-color);
+}
 #contact .table * {
   background-color: transparent;
 }
