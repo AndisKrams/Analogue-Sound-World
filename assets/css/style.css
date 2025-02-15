@@ -37,11 +37,12 @@ footer {
 footer h3 {
   font-family: var(--secondary-font);
 }
-#header {
+#header-home {
   text-align: center;
 }
 
-#header-vintage {
+#header-vintage,
+#header-products {
   padding-top: 90px;
   text-align: center;
 }
