@@ -23,9 +23,12 @@ body {
   background-color: var(--background-color);
   color: var(--secondary-color);
 }
+p {
+  font-size: 1.2rem;
+}
 h1,
 h2,
-h5 {
+h4 {
   font-family: var(--secondary-font);
   text-align: center;
   color: var(--primary-color);
@@ -50,7 +53,6 @@ footer h3 {
   background-color: var(--highlight-color-light);
   color: var(--background-color);
 }
-
 #products,
 #mini {
   padding-top: 80px;
@@ -106,11 +108,15 @@ footer h3 {
 /*Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
   /*Make cards the same height for consistency*/
-  #mini .card-footer {
-    min-height: 321px;
+  #jt .card-footer,
+  #phara-o .card-footer{
+    min-height: 210px;
   }
-  .behringer .card-footer {
-    min-height: 303px !important; /*Important to override height set for #mini*/
+  #ms-1 .card-footer {
+    min-height: 224px 
+  }
+  #keys .card-footer {
+    min-height: 493.75px;
   }
 }
 /*Large devices (desktops, 992px and up) */
@@ -119,20 +125,20 @@ footer h3 {
     min-height: 89.6px;
   }
   .behringer .card-header {
-    min-height: 82.5px; /*Important to override height set for #products*/
+    min-height: 82.5px; 
   }
   .behringer .card-footer {
-    min-height: 202px !important; /*Important to override height set for #mini*/
+    min-height: 234.6px !important; /*Important to override height set for id's*/
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) {
   .korg .card-footer {
-    min-height: 393px !important;
+    min-height: 580px !important; /*Important to override height set for #keys*/
   }
 }
 /*Extra Large screens, 1400px and more*/
 @media screen and (min-width: 1400px) {
   .korg .card-footer {
-    min-height: 273px !important;
+    min-height: 407.36px !important;
   }
 }
