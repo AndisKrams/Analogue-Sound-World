@@ -63,6 +63,11 @@ footer h3 {
 .nav-item a:hover {
   color: var(--secondary-color);
 }
+ul.dropdown-menu.show,
+ul.dropdown-menu.show a:hover {
+  background: var(--highlight-color);
+  font-size: 1.2rem;
+}
 #contact .table * {
   background-color: transparent;
 }
