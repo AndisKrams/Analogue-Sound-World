@@ -48,6 +48,10 @@ The website is built taking in account potential user needs. Before creating the
 * For checking contrast I used <https://webaim.org/resources/contrastchecker/> .
 * Visual Studio Code as an IDE. I used some Copilot suggestions, but noticed it's limitations leading to errors (e.g. using “\” instead of “/” in links).
 
+## Testing
+
+## Deployment
+
 ## Credits
 
 ### Images
