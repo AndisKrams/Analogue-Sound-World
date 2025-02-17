@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
   --primary-font: inter, sans-serif;
-  --secondary-font: quantico, sans-serif;
+  --secondary-font: quantico, serif;
   --primary-color: #86877b;
   --secondary-color: #c7a897;
   --highlight-color: #9cb625;
