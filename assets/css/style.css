@@ -45,9 +45,15 @@ footer h3 {
   color: var(--secondary-color);
   font-size: 1.1em;
 }
-.text:hover {
+.text:hover,
+.card-link:hover {
   color: var(--highlight-color);
 }
+.card-link {
+  color: var(--background-color);
+  font-size: 1.1em;
+}
+
 #header-vintage,
 #header-products {
   padding-top: 90px;
