@@ -56,15 +56,15 @@ The website is built taking in account potential user needs. Before creating the
 
 ### Media
 
-* Favicon <a href="https://www.freepik.com/icon/sound-waves_555253#fromView=search&page=5&position=66&uuid=bc04230f-45ca-4ea9-a74f-55951ca2b7e8">Icon by Freepik</a>. I created it here: https://favicon.io/favicon-converter/
-* Image on navbar is from https://pngtree.com/.
-* Hero image croped from image by Daniel Spils. License: https://creativecommons.org/licenses/by-sa/2.0/
-* Vintage page image by Mack Male. License: https://creativecommons.org/licenses/by-sa/4.0/
-* Images in products section are from https://www.pexels.com/ by TStudio, Carlos Santos and Pok Rie. Drummachine by Ashley Pomeroy, license https://creativecommons.org/licenses/by-sa/4.0/
+* Favicon [Icon by Freepik](https://www.freepik.com/icon/sound-waves_555253#fromView=search&page=5&position=66&uuid=bc04230f-45ca-4ea9-a74f-55951ca2b7e8). I created it here: <https://favicon.io/favicon-converter/>
+* Image on navbar is from <https://pngtree.com/>.
+* Hero image croped from image by Daniel Spils. License: <https://creativecommons.org/licenses/by-sa/2.0/>
+* Vintage page image by Mack Male. License: <https://creativecommons.org/licenses/by-sa/4.0/>
+* Images in products section are from <https://www.pexels.com/> by TStudio, Carlos Santos and Pok Rie. Drummachine by Ashley Pomeroy, license <https://creativecommons.org/licenses/by-sa/4.0/>
 * Mini section images are from Behringer and Korg websites.
 
 ### Content
 
-* On homepage introductory text are from https://www.pmtonline.co.uk/.
+* On homepage introductory text are from <https://www.pmtonline.co.uk/>.
 * Products cards footer text are from Behringer and Korg websites.
-* The rest are written by myself. On vitage page large parts of text are built from Copilot suggestions. 
+* The rest are written by myself. On vitage page large parts of text are built from Copilot suggestions.
