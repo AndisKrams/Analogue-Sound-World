@@ -42,8 +42,9 @@ footer h3 {
   font-family: var(--secondary-font);
 }
 .text {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 1.1em;
+  text-decoration: none;
 }
 .text:hover,
 .card-link:hover {
