@@ -26,6 +26,13 @@ The website is built taking in account potential user needs. Before creating the
 * As the site isn't text-heavy I have  chosen dark mode.
 * Content sections are short and they are aligned across the page width with the links to each section in navbar. Products sections and vintage instruments section with enquiries form has separate pages.
 
+## Typography
+
+* For main content I used inter font with sans-serif as a fallback font.
+* Heading elements have quantico font and serif as a fallback. Headings are in light gray colour with less contrast than smaller text.
+* Navbar and footer have bright background colour and dark font colour as main content background.
+* Links have the same colour as surrounding text.
+
 ## Site features
 
 * Navigation fixed on the top of the screen with a toggle button for smaller screen sizes.
@@ -42,3 +49,15 @@ The website is built taking in account potential user needs. Before creating the
 * Visual Studio Code as an IDE. I used some Copilot suggestions, but noticed it's limitations leading to errors (e.g. using “\” instead of “/” in links).
 
 ## Credits
+
+### Images
+
+* Favicon <a href="https://www.freepik.com/icon/sound-waves_555253#fromView=search&page=5&position=66&uuid=bc04230f-45ca-4ea9-a74f-55951ca2b7e8">Icon by Freepik</a>. I created it here: https://favicon.io/favicon-converter/
+* Hero image croped from image by Daniel Spils. License: https://creativecommons.org/licenses/by-sa/2.0/
+* Vintage page image by Mack Male. License: https://creativecommons.org/licenses/by-sa/4.0/
+* Images in products section are from https://www.pexels.com/ by TStudio, Carlos Santos and Pok Rie. Drummachine by Ashley Pomeroy, license https://creativecommons.org/licenses/by-sa/4.0/
+* Mini section images are from Behringer and Korg websites.
+
+### Content
+
+
