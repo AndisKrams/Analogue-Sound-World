@@ -41,7 +41,13 @@ footer {
 footer h3 {
   font-family: var(--secondary-font);
 }
-
+.text {
+  color: var(--secondary-color);
+  font-size: 1.1em;
+}
+.text:hover {
+  color: var(--highlight-color);
+}
 #header-vintage,
 #header-products {
   padding-top: 90px;
