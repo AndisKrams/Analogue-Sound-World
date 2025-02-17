@@ -60,7 +60,7 @@ footer h3 {
 #modal .modal-title {
   color: var(--background-color);
 }
-.nav-item a:hover, {
+.nav-item a:hover {
   color: var(--secondary-color);
 }
 ul.dropdown-menu.show,
