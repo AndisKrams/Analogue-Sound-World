@@ -31,7 +31,7 @@ The website is built taking in account potential user needs. Before creating the
 * For main content I used inter font with sans-serif as a fallback font.
 * Heading elements have quantico font and serif as a fallback. Headings are in light gray colour with less contrast than smaller text.
 * Navbar and footer have bright background colour and dark font colour as main content background.
-* Links are set inconspicuously in surrounding text.
+* Links are set inconspicuously in surrounding text using websites custom colors.
 
 ## Site features
 
@@ -52,6 +52,13 @@ The website is built taking in account potential user needs. Before creating the
 
 ## Deployment
 
+* The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  * In the GitHub repository, navigate to the Settings tab 
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - <https://andiskrams.github.io/Analogue-Sound-World/>
+
 ## Credits
 
 ### Media
@@ -60,7 +67,7 @@ The website is built taking in account potential user needs. Before creating the
 * Image on navbar is from <https://pngtree.com/>.
 * Hero image croped from image by Daniel Spils. License: <https://creativecommons.org/licenses/by-sa/2.0/>
 * Vintage page image by Mack Male. License: <https://creativecommons.org/licenses/by-sa/4.0/>
-* Images in products section are from <https://www.pexels.com/> by TStudio, Carlos Santos and Pok Rie. Drummachine by Ashley Pomeroy, license <https://creativecommons.org/licenses/by-sa/4.0/>
+* Images in products section are from <https://www.pexels.com/> keyboard.webp by TStudio, modular.webp by Carlos Santos, sound-equipment.webp by Pok Rie. Drum-machine.webp by Ashley Pomeroy, license <https://creativecommons.org/licenses/by-sa/4.0/>
 * Mini section images are from Behringer and Korg websites.
 
 ### Content
@@ -68,3 +75,15 @@ The website is built taking in account potential user needs. Before creating the
 * On homepage introductory text are from <https://www.pmtonline.co.uk/>.
 * Products cards footer text are from Behringer and Korg websites.
 * The rest are written by myself. On vitage page large parts of text are built from Copilot suggestions.
+
+### Code
+
+* For responsive layout, navbar, image cards and pop-up modal with contact form I used components from <https://getbootstrap.com/> and modified them for the sites content.
+* JavaScript code for Bootstrap mobile navbar collapse is from Code Institute "Boardwalk Games" walkthrough project.
+
+### Fonts
+
+Fonts from <https://fonts.google.com/>
+
+* Inter by Rasmus Andersson
+* Quantico  by MADType
