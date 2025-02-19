@@ -31,7 +31,7 @@ The website is built taking in account potential user needs. Before creating the
 * For main content I used inter font with sans-serif as a fallback font.
 * Heading elements have quantico font and serif as a fallback. Headings are in light gray colour with less contrast than smaller text.
 * Navbar and footer have bright background colour and dark font colour as main content background.
-* Links have the same colour as surrounding text.
+* Links are set inconspicuously in surrounding text.
 
 ## Site features
 
