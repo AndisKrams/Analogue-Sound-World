@@ -32,11 +32,17 @@ According to those needs I decided what features to include.
 * Information about reselling vintage instruments with pop-up contact form for enquiries.
 * Footer with stores address, contact details and opening times; links to social media sites.
 
+Site’s structure must be clear without too much detail taking attention.
+
 ### Potential features left to implement
 
 * Product image cards footers can have dropdowns with technical details. Some of currently existing footer content can be moved to dropdowns, reducing card height.
 * Another modal which appears after submission of the form, showing confirmation of submission.
 * “About” page telling more about the shop
+
+## Development
+
+After formulating requirements for the site I draw rough [wireframes](assets/documentation/wireframes.jpeg) on paper for different screen sizes. In the process I adopted initial wireframes for the amount of content I had.
 
 ## Design choices
 
@@ -78,7 +84,7 @@ I tested the deployed website on Chrome, Edge and Firefox browsers. It looks goo
 
 Early testing showed some issues with performance.
 
-![Lighthouse Home](assets/documentation/home_lighthouse.JPG) ![Lighthouse Products](assets/documentation/products_lighthouse.JPG)
+![Lighthouse Home](assets/documentation/home_lighthouse.JPG) [Lighthouse Products page](assets/documentation/products_lighthouse.JPG)
 
 Closer look at the code revealed some unnecessary sub-divs with repeating classes. Cleaning of the code significantly improved performance with scores close to 100%.
 
@@ -92,7 +98,7 @@ Although testing of Products page is inconsistent, often showing NO_LCP Error an
 
 <https://validator.w3.org> showed lot of errors apparently originating from code formatting and Copilot suggestions.
 
-![HTML errors](assets/documentation/errors.JPG)
+[HTML errors](assets/documentation/errors.JPG)
 
 I fixed indicated errors.
 
