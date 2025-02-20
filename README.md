@@ -1,8 +1,10 @@
 # Analogue Sound World
 
-Analogue Sound World is a website for a musical equipment store, specialising in an analogue synthesisers. Website should give visitors an insight of available instrument choices, including portable low cost options to try generation of analogue sounds.
+Analogue Sound World is a website for a musical equipment store, specialising in an analogue synthesisers. It gives visitors an insight of available instrument choices, including portable low cost options to try generation of analogue sounds.
+Website is deployed here: <https://andiskrams.github.io/Analogue-Sound-World/>
 
 ## Rationale
+
 
 The website is built taking in account potential user needs. Before creating the site I wrote a few user stories from which I took user needs.
 
@@ -24,38 +26,47 @@ The website is built taking in account potential user needs. Before creating the
 
 * The website has a Bootstrap grid layout to provide resposivenes for different screen sizes.
 * As the site isn't text-heavy I have  chosen dark mode.
+  Colours used: ![colur palette](assets\documentation\colors.JPG)
 * Content sections are short and they are aligned across the page width with the links to each section in navbar. Products sections and vintage instruments section with enquiries form has separate pages.
 
 ## Typography
 
 * For main content I used inter font with sans-serif as a fallback font.
 * Heading elements have quantico font and serif as a fallback. Headings are in light gray colour with less contrast than smaller text.
-* Navbar and footer have bright background colour and dark font colour as main content background.
+* Navbar and footer have bright background colour and dark font colour.
 * Links are set inconspicuously in surrounding text using websites custom colors.
 
 ## Site features
 
-* Navigation fixed on the top of the screen with a toggle button for smaller screen sizes.
+* Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. On left side are logo image with link to homepage.
 * Products list consisting of cards with representative images for visual engagement. Where applicable links to producers' websites are embedded in card headers.
-* Information about reselling vintage instruments with contact form for enquiries.
-* Contact details section with opening times and links to social media sites.
+* Information about reselling vintage instruments with pop-up contact form for enquiries.
+* Footer with stores contact details and opening times; links to social media sites.
+
+### Features Left to Implement
 
 ## Technologies used
 
 * HTML, CSS, Bootstrap, Javascript.
 * Squoosh to resize and compress images for web use.
 * To generate a colour palette from the uploaded image I used  <http://colormind.io> . As some results lacked acceptable contrast I used <https://mycolor.space/> generator to expand the colour palette.
-* For checking contrast I used <https://webaim.org/resources/contrastchecker/> .
+* For checking contrast I used <https://webaim.org/resources/contrastchecker/> and on website preview I used inspect inspect tool to check contrast of particular elements.
 * Visual Studio Code as an IDE. I used some Copilot suggestions, but noticed it's limitations leading to errors (e.g. using “\” instead of “/” in links).
 
 ## Testing
 
+### Manual
+
+### Lighthouse
+
+### Validators
+
 ## Deployment
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  * In the GitHub repository, navigate to the Settings tab 
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
   * From the source section drop-down menu, select the Master Branch
-  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - <https://andiskrams.github.io/Analogue-Sound-World/>
 
