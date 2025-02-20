@@ -5,8 +5,9 @@ Website is deployed here: <https://andiskrams.github.io/Analogue-Sound-World/>
 
 ## Rationale
 
-
-The website is built taking in account potential user needs. Before creating the site I wrote a few user stories from which I took user needs.
+I wanted to use my knowledge of HTML and CSS to create a website for a musical instruments shop, showing accessibility of analogue synthesizers with examples of modern analogue synthesisers. It must demonstrate that analogue synths nowadays are not wall to wall equipment and small devices have a lot of functionality.
+The website must show stores location, easy to find for visitors.
+I started to create the project taking in account potential user needs. Before creating the site I wrote a few user stories from which I took user needs.
 
 ### User stories
 
@@ -22,12 +23,27 @@ The website is built taking in account potential user needs. Before creating the
 * Clearly show location and opening times.
 * To help interessents get in touch via contact form.
 
+According to those needs I decided what features to include.
+
+### Site features
+
+* Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. On left side are logo image with link to homepage. At the end of homepages content there are links to other pages embedded in text.
+* Separate page with products list consisting of cards with representative images for visual engagement. Where applicable links to producers' websites are embedded in card headers. Although products page don’t have a lot of information, dedicated page allows for future development to add more product groups. It might become especially useful if implementing an e-commerce option.
+* Information about reselling vintage instruments with pop-up contact form for enquiries.
+* Footer with stores address, contact details and opening times; links to social media sites.
+
+### Potential features left to implement
+
+* Product image cards footers can have dropdowns with technical details. Some of currently existing footer content can be moved to dropdowns, reducing card height.
+* Another modal which appears after submission of the form, showing confirmation of submission.
+* “About” page telling more about the shop
+
 ## Design choices
 
 * The website has a Bootstrap grid layout to provide resposivenes for different screen sizes.
 * As the site isn't text-heavy I have  chosen dark mode.
-  Colours used: ![colur palette](assets\documentation\colors.JPG)
-* Content sections are short and they are aligned across the page width with the links to each section in navbar. Products sections and vintage instruments section with enquiries form has separate pages.
+  Colours used: ![colour palette](assets\documentation\colors.JPG)
+* Content sections are short and they are aligned across the page width with the links to each section in navbar. 
 
 ## Typography
 
@@ -35,15 +51,6 @@ The website is built taking in account potential user needs. Before creating the
 * Heading elements have quantico font and serif as a fallback. Headings are in light gray colour with less contrast than smaller text.
 * Navbar and footer have bright background colour and dark font colour.
 * Links are set inconspicuously in surrounding text using websites custom colors.
-
-## Site features
-
-* Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. On left side are logo image with link to homepage.
-* Products list consisting of cards with representative images for visual engagement. Where applicable links to producers' websites are embedded in card headers.
-* Information about reselling vintage instruments with pop-up contact form for enquiries.
-* Footer with stores contact details and opening times; links to social media sites.
-
-### Features Left to Implement
 
 ## Technologies used
 
@@ -57,9 +64,55 @@ The website is built taking in account potential user needs. Before creating the
 
 ### Manual
 
+Initial testing showed products cards aligned left. ![card alignment](assets\documentation\card-alignment.JPG)
+
+Using the inspect tool I found that those image cards lack justify-content-center class. Moving the closing tab of div with that class below products cards solved an issue.
+
+At the very end of testing I noticed a small blue line after the Youtube icon. ![blue line](assets\documentation\blue-line.JPG)
+
+I tried to change the icon to square one, but it didn't look good with current styling. Instead I changed the order of social media icons with Youtube at the end. That removed the appearance of the blue line.
+
+I tested the deployed website on Chrome, Edge and Firefox browsers. It looks good and is responsive for various screen sizes. Navigation links work and external links open in a new window.
+
 ### Lighthouse
 
+Early testing showed some issues with performance.
+
+![Lighthouse Home](assets\documentation\home_lighthouse.JPG) ![Lighthouse Products](assets\documentation\products_lighthouse.JPG)
+
+Closer look at the code revealed some unnecessary sub-divs with repeating classes. Cleaning of the code significantly improved performance with scores close to 100%.
+
+![Home Lighthouse Final](assets\documentation\home_lighthouse1.JPG) ![Products Lighthouse final](assets\documentation\products_lighthouse2.JPG) ![Vintage Lighthouse final](assets\documentation\vintage_lighthouse_final.JPG)
+
+Although testing of Products page is inconsistent, often showing NO_LCP Error and needs repeated tests to get performance score.
+
 ### Validators
+
+#### HTML
+
+<https://validator.w3.org> showed lot of errors apparently originating from code formatting and Copilot suggestions.
+
+![HTML errors](assets\documentation\errors.JPG)
+
+I fixed indicated errors.
+
+![Fixed HTML](assets\documentation\no_errors.JPG)
+
+#### CSS
+
+<https://jigsaw.w3.org/css-validator/> showed one error:
+
+![css jigsaw](assets\documentation\css.JPG)
+
+I fixed it replacing value with 0.
+
+![corrected css validator](assets\documentation\css-corrected.JPG)
+
+### Unsolved bugs
+
+Products page needs javascript code to collapse navbar on small screens, when navigating to same page sections.
+
+![Non-collapsing navbar](assets\documentation\non-collapse.JPG)
 
 ## Deployment
 
