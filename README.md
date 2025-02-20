@@ -42,7 +42,7 @@ According to those needs I decided what features to include.
 
 * The website has a Bootstrap grid layout to provide resposivenes for different screen sizes.
 * As the site isn't text-heavy I have  chosen dark mode.
-  Colours used: ![colour palette](assets\documentation\colors.JPG)
+  Colours used: ![colour palette](assets/documentation/colors.JPG)
 * Content sections are short and they are aligned across the page width with the links to each section in navbar. 
 
 ## Typography
@@ -64,11 +64,11 @@ According to those needs I decided what features to include.
 
 ### Manual
 
-Initial testing showed products cards aligned left. ![card alignment](assets\documentation\card-alignment.JPG)
+Initial testing showed products cards aligned left. ![card alignment](assets/documentation/card-alignment.JPG)
 
 Using the inspect tool I found that those image cards lack justify-content-center class. Moving the closing tab of div with that class below products cards solved an issue.
 
-At the very end of testing I noticed a small blue line after the Youtube icon. ![blue line](assets\documentation\blue-line.JPG)
+At the very end of testing I noticed a small blue line after the Youtube icon. ![blue line](assets/documentation/blue-line.JPG)
 
 I tried to change the icon to square one, but it didn't look good with current styling. Instead I changed the order of social media icons with Youtube at the end. That removed the appearance of the blue line.
 
@@ -78,11 +78,11 @@ I tested the deployed website on Chrome, Edge and Firefox browsers. It looks goo
 
 Early testing showed some issues with performance.
 
-![Lighthouse Home](assets\documentation\home_lighthouse.JPG) ![Lighthouse Products](assets\documentation\products_lighthouse.JPG)
+![Lighthouse Home](assets/documentation/home_lighthouse.JPG) ![Lighthouse Products](assets/documentation/products_lighthouse.JPG)
 
 Closer look at the code revealed some unnecessary sub-divs with repeating classes. Cleaning of the code significantly improved performance with scores close to 100%.
 
-![Home Lighthouse Final](assets\documentation\home_lighthouse1.JPG) ![Products Lighthouse final](assets\documentation\products_lighthouse2.JPG) ![Vintage Lighthouse final](assets\documentation\vintage_lighthouse_final.JPG)
+![Home Lighthouse Final](assets/documentation/home_lighthouse1.JPG) ![Products Lighthouse final](assets/documentation/products_lighthouse2.JPG) ![Vintage Lighthouse final](assets/documentation/vintage_lighthouse_final.JPG)
 
 Although testing of Products page is inconsistent, often showing NO_LCP Error and needs repeated tests to get performance score.
 
@@ -92,27 +92,27 @@ Although testing of Products page is inconsistent, often showing NO_LCP Error an
 
 <https://validator.w3.org> showed lot of errors apparently originating from code formatting and Copilot suggestions.
 
-![HTML errors](assets\documentation\errors.JPG)
+![HTML errors](assets/documentation/errors.JPG)
 
 I fixed indicated errors.
 
-![Fixed HTML](assets\documentation\no_errors.JPG)
+![Fixed HTML](assets/documentation/no_errors.JPG)
 
 #### CSS
 
 <https://jigsaw.w3.org/css-validator/> showed one error:
 
-![css jigsaw](assets\documentation\css.JPG)
+![css jigsaw](assets/documentation/css.JPG)
 
 I fixed it replacing value with 0.
 
-![corrected css validator](assets\documentation\css-corrected.JPG)
+![corrected css validator](assets/documentation/css-corrected.JPG)
 
 ### Unsolved bugs
 
 Products page needs javascript code to collapse navbar on small screens, when navigating to same page sections.
 
-![Non-collapsing navbar](assets\documentation\non-collapse.JPG)
+![Non-collapsing navbar](assets/documentation/non-collapse.JPG)
 
 ## Deployment
 
