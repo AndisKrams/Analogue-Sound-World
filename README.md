@@ -27,10 +27,15 @@ According to those needs I decided what features to include.
 
 ### Site features
 
-* Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. On left side are logo image with link to homepage. At the end of homepages content there are links to other pages embedded in text.
-* Separate page with products list consisting of cards with representative images for visual engagement. Where applicable links to producers' websites are embedded in card headers. Although products page don’t have a lot of information, dedicated page allows for future development to add more product groups. It might become especially useful if implementing an e-commerce option.
-* Information about reselling vintage instruments with pop-up contact form for enquiries.
-* Footer with stores address, contact details and opening times; links to social media sites.
+![homepage](assets/documentation/home.JPG)
+
+* Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. ![navbar](assets/documentation/navbar.JPG) ![dropdown](assets/documentation/dropdown.JPG) On left side are logo image with link to homepage. At the end of homepages content there are links to other pages embedded in text.
+
+  ![navigation-mobile](assets/documentation/nav_small.JPG) ![links](assets/documentation/links.JPG)
+* Separate page with products list consisting of cards with representative images for visual engagement. ![products-page](assets/documentation/products.JPG) ![mini-synths](assets/documentation/mini.JPG) Where applicable links to producers' websites are embedded in card headers. Although products page don’t have a lot of information, dedicated page allows for future development to add more product groups. It might become especially useful if implementing an e-commerce option.
+* Information about reselling vintage instruments with pop-up contact form for enquiries. ![vintage-page](assets/documentation/vintage.JPG)  ![pop-up-form](assets/documentation/form.JPG)
+
+* Footer with stores address, contact details and opening times; links to social media sites.  ![footer](assets/documentation/contact.JPG)
 
 Site’s structure must be clear without too much detail taking attention.
 
