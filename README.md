@@ -1,6 +1,7 @@
 # Analogue Sound World
 
 Analogue Sound World is a website for a musical equipment store, specialising in an analogue synthesisers. It gives visitors an insight of available instrument choices, including portable low cost options to try generation of analogue sounds.
+![mockup](assets/documentation/website-mockup.JPG)
 Website is deployed here: <https://andiskrams.github.io/Analogue-Sound-World/>
 
 ## Rationale
@@ -26,8 +27,6 @@ I started to create the project taking in account potential user needs. Before c
 According to those needs I decided what features to include.
 
 ### Site features
-
-![homepage](assets/documentation/home.JPG)
 
 * Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. ![navbar](assets/documentation/navbar.JPG) ![dropdown](assets/documentation/dropdown.JPG) On left side are logo image with link to homepage. At the end of homepages content there are links to other pages embedded in text.
 
