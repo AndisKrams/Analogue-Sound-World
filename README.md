@@ -6,9 +6,8 @@ Website is deployed here: <https://andiskrams.github.io/Analogue-Sound-World/>
 
 ## Rationale
 
-I wanted to use my knowledge of HTML and CSS to create a website for a musical instruments shop, showing accessibility of analogue synthesizers with examples of modern analogue synthesisers. It must demonstrate that analogue synths nowadays are not wall to wall equipment and small devices have a lot of functionality.
-The website must show stores location, easy to find for visitors.
-I started to create the project taking in account potential user needs. Before creating the site I wrote a few user stories from which I took user needs.
+I wanted to use my knowledge of HTML and CSS to create a website for a musical instruments shop.
+I started to create the project, taking in account potential user needs. Before creating the site I wrote a few user stories from which I took user needs. Although I determined needs of site's owner.
 
 ### User stories
 
@@ -26,6 +25,14 @@ I started to create the project taking in account potential user needs. Before c
 
 According to those needs I decided what features to include.
 
+For potential customers the website must show accessibility of analogue synthesizers with examples of modern analogue synthesisers. It must demonstrate that analogue synths nowadays are not wall to wall equipment and small devices have a lot of functionality.
+
+There must be information about reselling of vintage instruments.
+
+The website must show stores location and contact details, which are easy to find for site's visitors.
+
+Site’s structure must be clear without too much detail taking attention.
+
 ### Site features
 
 * Navigation fixed on the top of the screen with a toggle dropdown button for smaller screen sizes. ![navbar](assets/documentation/navbar.JPG) ![dropdown](assets/documentation/dropdown.JPG) On left side are logo image with link to homepage. At the end of homepages content there are links to other pages embedded in text.
@@ -35,8 +42,6 @@ According to those needs I decided what features to include.
 * Information about reselling vintage instruments with pop-up contact form for enquiries. ![vintage-page](assets/documentation/vintage.JPG)  ![pop-up-form](assets/documentation/form.JPG)
 
 * Footer with stores address, contact details and opening times; links to social media sites.  ![footer](assets/documentation/contact.JPG)
-
-Site’s structure must be clear without too much detail taking attention.
 
 ### Potential features left to implement
 
